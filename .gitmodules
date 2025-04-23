@@ -1,0 +1,9 @@
+[submodule "Engine"]
+	path = Engine
+	url = https://github.com/corentinch59/UQAC_ReseauTP3
+[submodule "Launcher"]
+	path = Launcher
+	url = https://github.com/tlegoc/DuoBoloLauncher2
+[submodule "Online"]
+	path = Online
+	url = https://github.com/tlegoc/DuoBoloApi
