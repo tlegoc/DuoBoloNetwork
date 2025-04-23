@@ -7,19 +7,20 @@
 
 Contiens le code du jeu, (server, client) et l'editeur.
 
-### Serveur
+### Cibles
+#### Serveur
 
 Cible xmake (rel,deb)-server.
 
 Executable lancé dans un container docker par le backend aws. N'est pas censé être lancé par l'utilisateur car il nécessite des variables fournies par le backend.
 
-### Client
+#### Client
 
 Cible xmake (release,debug).
 
 Executable lancé par le client. Doit être lancé avec les paramètres -i pour l'ip du serveur et des paramètres d'authentification pour que le serveur s'assure de la validité de la connexion. Est lancé directement par le launcher.
 
-### Editeur
+#### Editeur
 
 Cible xamek (rel,deb)-editor.
 
