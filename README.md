@@ -1,7 +1,7 @@
 # DuoBoloNetwork
- README repository for the DuoBoloNetwork engine, launcher and online stack
+README repository for the DuoBoloNetwork engine, launcher and online stack
 
- To install, please see the [latest release of the launcher](https://github.com/tlegoc/DuoBoloLauncher2/releases). First working version is 0.3.7.
+To install, please see the [latest release of the launcher](https://github.com/tlegoc/DuoBoloLauncher2/releases). First working version is 0.3.7.
 
 Child repositories :
 
@@ -9,7 +9,11 @@ Child repositories :
 - Game + Engine : https://github.com/corentinch59/UQAC_ReseauTP3
 - Online API : https://github.com/tlegoc/DuoBoloApi
 
- ## The Game
+# Metrics
+
+You can watch metrics about the backend [here](https://cloudwatch.amazonaws.com/dashboard.html?dashboard=DuoBoloNetworkDashboard&context=eyJSIjoidXMtZWFzdC0xIiwiRCI6ImN3LWRiLTc2MTI3MjcwMjcwNiIsIlUiOiJ1cy1lYXN0LTFfMU12UTZZT1pkIiwiQyI6IjZqZTc3MGk0b3F1MzFrbGg4OGI2bnZvbm42IiwiSSI6InVzLWVhc3QtMTo3ZTVhMDIwOS03ZDI2LTRkOWItYjI1OS0zNjFhMjRiYWNhNjUiLCJNIjoiUHVibGljIn0=)
+
+## The Game
 
 ### Connection
 When launching the game for the first time, you will have to create an account (you can input any email it's not important)  
