@@ -17,6 +17,12 @@ You can watch metrics about the backend [here](https://cloudwatch.amazonaws.com/
 
 ## The Game
 
+| ![image](https://github.com/user-attachments/assets/1224d7f3-1860-48b9-b39e-2b405df468cd) | ![image](https://github.com/user-attachments/assets/9d17ba58-58bc-4b87-bfdc-66d99eeaef27) |
+:-------------------------:|:-------------------------:
+![image](https://github.com/user-attachments/assets/9ecdeba2-c460-4d66-8b02-774c7271ccf6) | ![image](https://github.com/user-attachments/assets/a3503e37-be87-4228-9af3-f04bbbf8b24c)
+![424820761-2dbf318f-dc65-4267-b1a0-63de5b2fc50f](https://github.com/user-attachments/assets/9e69cd7d-946b-4a6e-8f28-5d1c33b4f507) | ![424820843-17d0a965-05d2-48ce-b5cc-fa66b3ad6e1c](https://github.com/user-attachments/assets/ae23c377-fea4-4f10-97d2-58165dba546b)
+
+
 ### Connection
 When launching the game for the first time, you will have to create an account (you can input any email it's not important)  
 Once registered, you can connect and press Find match to queue in the matchmaking.  
