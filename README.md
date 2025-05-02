@@ -1,37 +1,36 @@
 # DuoBoloNetwork
  Master repository for the DuoBoloNetwork engine, launcher and online stack
 
+ ## The Game
+
+It's played with **WASD** for movement and **left click** to shot a ball.  
+Hitting a cube with a ball and making it fall off the platform will make it disappear.  
+The last person hitting the cube will score it.
+
 # Folders
 
 ## Engine
 
-Contiens le code du jeu, (server, client) et l'editeur.
+Contains the code for the game, server, client and editor. (the editor is broken on latest release)
 
-### Cibles
-#### Serveur
+### Targets
+#### Server
 
-Cible xmake (rel,deb)-server.
-
-Executable lancé dans un container docker par le backend aws. N'est pas censé être lancé par l'utilisateur car il nécessite des variables fournies par le backend.
+Executable launched in a docker container via AWS. It's not supposed to be launched by the user because it need variables given by the backend.
 
 #### Client
 
-Cible xmake (release,debug).
-
-Executable lancé par le client. Doit être lancé avec les paramètres -i pour l'ip du serveur et des paramètres d'authentification pour que le serveur s'assure de la validité de la connexion. Est lancé directement par le launcher.
+Executable launched by the client. Must be launched with parameters -i for the server ip and -u with username for server authentification. It's handled by the launcher.
 
 #### Editeur
 
-Cible xamek (rel,deb)-editor.
-
-Cible permettant d'éditer des niveaux pour le jeu (.dbs). Ne permet pas de faire de test de jeu, c'est un éditeur de données uniquement.
+Target that allows to edit the level of the game (.dbs). Doesn't allow to test the game, it's only a data editor. (broken at the moment)
 
 ## Launcher
 
-Contient le code du launcher du jeu. Sers d'interface avec l'API AWS permettant la connexion, le matchmaking, l'affichage des statistiques... Lance le client avec les bons paramètres. Codé en rust pour le backend de l'application, HTML/CSS pour l'interface et javascript pour une partie de la logique.
+Holds the code to launch the game. It's the user interface with the AWS API allowing connection, matchmaking and display statistics. when pressing Find match, a matchmaking ticket will form. You will see the button turning grey with Match found when the matchmaking is finished. Wait a few seconds to allow the server to start and the Game will open up by itself. Coded in Rust for the application backend, HTLM/CSS for the display and some javascript for some logic.
 
 ## Online
 
-Contiens le code pour le déploiement de l'infrastructure online sur AWS. À utiliser de paire avec AWS SAM CLI.
-
-Codé en python pour les fonctions à exécuter sur le cloud. Utilise docker pour le serveur. Les définitions des resources (bases de données, bases d'utilisateurs, api...) dans template.yaml et matchmaking.yaml.
+Holds the code for online infrastructure deployment on AWS. Must be paire with AWS SAM CLI.
+Coded in python for cloud execution. Uses docker for the server. Resources are defined in template.yaml and matchmaking.yaml.
