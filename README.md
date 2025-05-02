@@ -3,6 +3,12 @@
 
  To install, please see the [latest release of the launcher](https://github.com/tlegoc/DuoBoloLauncher2/releases). First working version is 0.3.7.
 
+ Please note the repositories inside this repo aren't up to date ! Please use theses links :
+
+- Launcher : https://github.com/tlegoc/DuoBoloLauncher2
+- Game + Engine : https://github.com/corentinch59/UQAC_ReseauTP3
+- Online API : https://github.com/tlegoc/DuoBoloApi
+
  ## The Game
 
 ### Connection
