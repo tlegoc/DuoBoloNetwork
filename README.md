@@ -3,9 +3,20 @@
 
  ## The Game
 
-It's played with **WASD** for movement and **left click** to shot a ball.  
-Hitting a cube with a ball and making it fall off the platform will make it disappear.  
-The last person hitting the cube will score it.
+### Connection
+When launching the game for the first time, you will have to create an account (you can input any email it's not important)  
+Once registered, you can connect and press Find match to queue in the matchmaking.  
+When enough players are queued, the button will turn grey and the text will indicate Match found. you just need to wait a few seconds for the server to start. The game will open by itself.  
+### In game
+Controls are :
+- **WASD** for **left/right/forward/backward**  
+- **Q/E** for **up/down**
+- **left click** to shot a ball.
+The objective is to hit cubes and make them fall off the platform.  
+The last person hitting the cube will score it.  
+The game lasts 2 minutes.
+Once the 2 minutes elapsed, simply press F5 on the launcher to update.  
+If you click on your profile icon you can check your statistics.
 
 # Folders
 
