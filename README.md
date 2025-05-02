@@ -13,6 +13,8 @@ Child repositories :
 
 You can watch metrics about the backend [here](https://cloudwatch.amazonaws.com/dashboard.html?dashboard=DuoBoloNetworkDashboard&context=eyJSIjoidXMtZWFzdC0xIiwiRCI6ImN3LWRiLTc2MTI3MjcwMjcwNiIsIlUiOiJ1cy1lYXN0LTFfMU12UTZZT1pkIiwiQyI6IjZqZTc3MGk0b3F1MzFrbGg4OGI2bnZvbm42IiwiSSI6InVzLWVhc3QtMTo3ZTVhMDIwOS03ZDI2LTRkOWItYjI1OS0zNjFhMjRiYWNhNjUiLCJNIjoiUHVibGljIn0=)
 
+![image](https://github.com/user-attachments/assets/03774c29-e059-46c6-9647-b67002e443f9)
+
 ## The Game
 
 ### Connection
